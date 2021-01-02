@@ -92,3 +92,9 @@ h3 {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
 }
+
+// INTRODUCTION
+
+.intro {
+  position: relative;
+}

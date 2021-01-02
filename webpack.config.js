@@ -6,6 +6,10 @@ module.exports = {
     filename: "bundled.js",
     path: path.resolve(__dirname, "./")
   },
-  mode: "development",
-  watch: true
+  devServer: {
+    contentBase: path.join(__dirname, "./"),
+    hot: true,
+    port: 3000
+  },
+  mode: "development"
 }
