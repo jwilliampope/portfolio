@@ -6,8 +6,8 @@
 
 /* Custom properties */
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: "Oswald", sans-serif;
+  --ff-secondary: Arial, Helvetica, sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 700;
@@ -42,7 +42,7 @@ body {
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   font-size: var(--fs-body);
   line-height: 1.6;
 }
@@ -61,7 +61,8 @@ strong {
 }
 
 :focus {
-  outline: 3px solid var(--clr-accent);
+  // outline: 1px solid #333;
+  box-shadow: 1px 1px 5px #fff;
   outline-offset: 3px;
 }
 
@@ -110,6 +111,7 @@ h3 {
 
 .section__title--intro {
   font-weight: var(--fw-reg);
+  font-family: var(--ff-primary);
 }
 
 .section__title--intro strong {

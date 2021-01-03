@@ -10,6 +10,6 @@
 /*!****************!*\
   !*** ./App.js ***!
   \****************/
-eval("if (false) {}\r\n\n\n//# sourceURL=webpack://portfolio/./App.js?");
+eval("\r\n\n\n//# sourceURL=webpack://portfolio/./App.js?");
 /******/ })()
 ;
