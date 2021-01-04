@@ -259,7 +259,7 @@ header {
   display: inline-block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .intro {
     display: grid;
     width: min-content;
@@ -346,7 +346,7 @@ header {
   box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
