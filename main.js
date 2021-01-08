@@ -1,3 +1,6 @@
+date = new Date().getFullYear()
+document.getElementById("year").innerHTML = date
+
 const navToggle = document.querySelector(".nav-toggle")
 const navLinks = document.querySelectorAll(".nav__link")
 
