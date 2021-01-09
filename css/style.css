@@ -9,6 +9,7 @@
   --ff-secondary: "Oswald", sans-serif;
   --fs-h2: 2.2rem;
   --fs-small: 1rem;
+  --fs-med: 2rem;
   --fs-body: 1.3rem;
 }
 
@@ -42,7 +43,7 @@ img {
 
 .logo {
   font-family: var(--ff-secondary);
-  font-size: var(--fs-small);
+  font-size: var(--fs-med);
   color: #000080;
 }
 
