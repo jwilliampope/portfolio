@@ -529,3 +529,36 @@ a {
 }
 
 /* FOOTER */
+
+footer {
+  background-color: rgba(0, 0, 0, 78%);
+  color: #fff;
+  margin-top: 10rem;
+  padding-top: 3rem;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.footer-icons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 5rem;
+  max-width: 320px;
+}
+
+.footer-icon {
+  width: 45px;
+  transition: all 0.3s;
+}
+
+.footer-icon-link {
+  margin: 0 10px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  opacity: 0.8;
+  transform: scale(1.03);
+}
