@@ -31,6 +31,7 @@ body {
 
 img {
   max-width: 100%;
+  border-radius: 50%;
 }
 
 @media (min-width: 850px) {
@@ -70,6 +71,7 @@ img {
 .section-title,
 .footer-title {
   font-weight: 700;
+  font-family: var(--ff-secondary);
 }
 
 .skills-section-subtitle {
@@ -412,7 +414,6 @@ a {
   margin: 0 auto 3rem;
   padding: 1em;
   background-color: #fff;
-  font-family: var(--ff-secondary);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 10%);
   border-radius: 1em;
   // transform: rotate(0);
