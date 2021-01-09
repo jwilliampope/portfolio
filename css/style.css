@@ -21,7 +21,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
+  background-color: #fefefe;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.5;
