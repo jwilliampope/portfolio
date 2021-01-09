@@ -278,7 +278,7 @@ a {
   }
 }
 
-/* HERO AREA */
+/* HERO SECTION */
 
 .hero {
   margin-top: 3.5rem;
@@ -289,4 +289,103 @@ a {
 .hero-description {
   margin: 0.3em auto 0;
   max-width: 580px;
+}
+
+.profile-img {
+  width: 75%;
+  margin: 0 auto;
+  order: -1;
+}
+
+@media (min-width: 500px) {
+  .profile-img {
+    width: 55%;
+  }
+}
+
+@media (min-width: 620px) {
+  .profile-img {
+    width: 45%;
+  }
+  .hero {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 850px) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-img {
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    order: 1;
+    margin-left: 1.56em;
+  }
+
+  .btn-hero {
+    align-self: flex-start;
+  }
+}
+
+/* MAIN SECTION */
+
+.section-title {
+  margin-bottom: 2rem;
+}
+
+.about-me-section,
+.skills-section,
+.projects-section {
+  margin-top: 8rem;
+}
+
+@media (min-width: 620px) {
+  .about-me-section,
+  .skills-section,
+  .projects-section {
+    margin-top: 10rem;
+  }
+}
+
+/* ABOUT SECTION */
+
+.abot-me-title::before {
+  content: " ";
+  margin-right: 10px;
+}
+
+/* SKILLS SECTION */
+
+.skills-section-title::before {
+  content: " ";
+  margin-right: 10px;
+}
+
+/* PROJECTS */
+
+.projects-section-title {
+  margin-bottom: 3rem;
+}
+
+.projects-section-title::before {
+  content: " ";
+  margin-right: 10px;
+}
+
+@media (min-width: 850px) {
+  .about-me-title::before,
+  .skills-section-title::before,
+  .projects-section-title::before {
+    position: absolute;
+    margin-left: -60px;
+    margin-right: 0;
+  }
 }
